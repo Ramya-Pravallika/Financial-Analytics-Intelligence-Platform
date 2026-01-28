@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-serif-title {
+  font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
+}
+.bg-deep {
+  background: linear-gradient(180deg, #051428 0%, #071826 100%);
+}
+
+/* Left sidebar */
+.app-shell {
+  min-height: 100vh;
+}
+.sidebar {
+  width: 220px;
+  background: #071426;
+  color: #fff;
+}
+.sidebar .brand {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 24px;
+}
+.sidebar a {
+  color: #cfd8dc;
+}
+.sidebar a.active {
+  background: rgba(255,255,255,0.04);
+  border-left: 3px solid #00b894;
+  color: #fff;
+}
+.content {
+  padding: 28px;
+  background: #f6f7f8;
+  min-height: 100vh;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.03) inset;
+}
+.table-light th, .table-light td {
+  padding: 14px;
+}
+.badge-risk-high { background: #fde2e2; color: #c53030; padding:4px 8px; border-radius:4px; font-weight:600;}
+.badge-risk-low { background: #e6fffa; color: #065f46; padding:4px 8px; border-radius:4px; font-weight:600;}
