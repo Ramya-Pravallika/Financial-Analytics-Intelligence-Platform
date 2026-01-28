@@ -50,6 +50,3 @@ API overview:
 
 Sample dataset included in backend/sample_data/transactions_sample.csv
 
-Notes:
-- The IsolationForest model is used as an example fraud/anomaly detector. In production you'd use domain features and careful validation.
-- Remove or change branding and text as needed for compliance.
